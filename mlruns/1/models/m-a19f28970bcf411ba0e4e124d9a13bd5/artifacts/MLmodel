@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/vvith/OneDrive/Desktop/kavya2.0/mlruns/1/models/m-a19f28970bcf411ba0e4e124d9a13bd5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.8
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-a19f28970bcf411ba0e4e124d9a13bd5
+model_size_bytes: 92827
+model_uuid: m-a19f28970bcf411ba0e4e124d9a13bd5
+prompts: null
+run_id: d1710906794c415bba9e23c66ab9911b
+utc_time_created: '2026-10-27 04:28:46.211731'
